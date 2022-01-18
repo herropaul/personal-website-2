@@ -1,4 +1,5 @@
 import SideBar from '../components/SideBar';
+import MobileMenuButton from '../components/MobileMenuButton';
 import {Section, SectionTitle, SectionText} from '../styles/GlobalComponents/index';
 export default function Home () {
   return (
@@ -12,11 +13,7 @@ export default function Home () {
         </a>
 
         {/* mobile menu button */}
-        <button className="mobile-menu-button p-4 focus:outline-none focus:bg-gray-400">
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
-          </svg>
-        </button>
+        <MobileMenuButton></MobileMenuButton>
       </div>
 
       {/*side bar */}

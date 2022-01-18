@@ -10,11 +10,11 @@ const SideBar = () => {
 
         {/* nav */}
         <nav>
-          <a href="" className="font-bold block py-3.5 px-4 rounded transition duration-200 hover:bg-blue-400 hover:text-white">Home</a>
-          <a href="" className="font-bold block py-3.5 px-4 rounded transition duration-200 hover:bg-blue-400 hover:text-white">About</a>
-          <a href="" className="font-bold block py-3.5 px-4 rounded transition duration-200 hover:bg-blue-400 hover:text-white">Projects</a>
-          <a href="" className="font-bold block py-3.5 px-4 rounded transition duration-200 hover:bg-blue-400 hover:text-white">Resume</a> 
-          <a href="" className="font-bold block py-3.5 px-4 rounded transition duration-200 hover:bg-blue-400 hover:text-white">Contact</a> 
+          <a href="" className="antialiased block py-3.5 px-4 rounded transition duration-200 hover:bg-blue-400 hover:text-white">Home</a>
+          <a href="" className="antialiased block py-3.5 px-4 rounded transition duration-200 hover:bg-blue-400 hover:text-white">About</a>
+          <a href="" className="antialiased block py-3.5 px-4 rounded transition duration-200 hover:bg-blue-400 hover:text-white">Projects</a>
+          <a href="" className="antialiased block py-3.5 px-4 rounded transition duration-200 hover:bg-blue-400 hover:text-white">Resume</a> 
+          <a href="" className="antialiased block py-3.5 px-4 rounded transition duration-200 hover:bg-blue-400 hover:text-white">Contact</a> 
         </nav>
       </div>
     );
