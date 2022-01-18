@@ -1,4 +1,5 @@
 import SideBar from '../components/SideBar';
+import {Section, SectionTitle, SectionText} from '../styles/GlobalComponents/index';
 export default function Home () {
   return (
     <div className="h-screen w-screen md:flex">
@@ -11,9 +12,9 @@ export default function Home () {
         </a>
 
         {/* mobile menu button */}
-        <button className="p-4 focus:outline-none focus:bg-gray-400">
+        <button className="mobile-menu-button p-4 focus:outline-none focus:bg-gray-400">
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
           </svg>
         </button>
       </div>
@@ -23,7 +24,15 @@ export default function Home () {
 
       {/* content */}
       <div className="flex-1 p-20 text-2xl font-bold">
-        content
+        <Section>
+          <SectionTitle>
+            Welcome To <br/>
+            My Personal Portfolio 
+          </SectionTitle>
+          <SectionText>
+            Nothing much here
+          </SectionText>
+        </Section>
       </div>
     </div>
   );
