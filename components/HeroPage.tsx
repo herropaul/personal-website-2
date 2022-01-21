@@ -1,4 +1,5 @@
 import {Section, SectionTitle, SectionText, SectionDivider} from '../styles/GlobalComponents/index';
+import Typical from 'react-typical'
 import React from 'react';
 
 const HeroPage = () => {
@@ -6,7 +7,7 @@ const HeroPage = () => {
         <Section>
           <SectionTitle>
             Welcome To <br/>
-            My Personal Portfolio 
+            My <Typical steps={['Personal Website', 1000]} loop={Infinity} wrapper="p"/>
           </SectionTitle>
           <SectionText>
             Hello friends, I'm Paul and I'm currently finishing up my undergrad as I'm making this website. <br/>

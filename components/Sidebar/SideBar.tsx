@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import styles from './Sidebar.module.css';
-import {Nav, NavbarContainer, NavLogo, NavMenu, NavItem, NavLinks} from './SideBarElements';
-
 
 const SideBar = () => {
     const navigationData = ["About", "Projects", "Resume", "Contact"];
