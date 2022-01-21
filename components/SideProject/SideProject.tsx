@@ -1,6 +1,6 @@
 import React from 'react'
 import {Section, SectionTitle, SectionText, SectionDivider} from '../../styles/GlobalComponents/index';
-import { GridContainer } from './SideProjectElements';
+import { GridContainer, Img } from './SideProjectElements';
 import {projects} from './constants';
 
 export default function SideProject() {
@@ -12,6 +12,7 @@ export default function SideProject() {
                     <SectionText>
                         {project.title}
                         <br/>
+                        <Img src={project.image}></Img>
                         {project.description}
                     </SectionText>
                 ))}
