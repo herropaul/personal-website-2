@@ -31,16 +31,28 @@ export const NavLogo = styled(LinkR)`
     text-decoration: none;
 `;
 
-export const NavMenu = styled.ul`
-    display: flex;
-    align-items: center;
-    list-style: none;
-    text-align: center;
+export const NavMenu = styled.ul.attrs({
+    className: "flex absolute inset-y-0 left-0 items-center py-7 "
+})``;
+
+export const NavItem = styled.li.attrs({
+    className: "h-12"
+})`
 `;
 
-export const NavItem = styled.li`
-    height: 80px;
-`;
+/*
+color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    cursor: pointer;
+
+    &.active {
+        border-bottom: 3px solid #01bf71;
+    }
+*/
 
 export const NavLinks = styled(LinkS)`
     color: #fff;
