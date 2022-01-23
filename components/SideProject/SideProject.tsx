@@ -1,6 +1,7 @@
 import React from 'react'
 import {Section, SectionTitle, SectionText, SectionDivider} from '../../styles/GlobalComponents/index';
 import { GridContainer, Img } from './SideProjectElements';
+import {LazyLoadImage} from 'react-lazy-load-image-component';
 import {projects} from './constants';
 
 export default function SideProject() {
@@ -12,7 +13,7 @@ export default function SideProject() {
                     <SectionText>
                         {project.title}
                         <br/>
-                        <Img src={project.image}></Img>
+                        <LazyLoadImage src={project.image} width="500" height="500"/>
                         {project.description}
                     </SectionText>
                 ))}

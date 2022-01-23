@@ -2,25 +2,25 @@ export const projects = [
     {
         title: 'Soiree',
         description: 'Some really long description'   ,
-        image: 'Image',
+        image: '/soiree.gif',
         tags: [],
     },
     {
         title: 'Supreme Bot',
         description: 'Some really long description',
-        image: '../../public/supreme_bot.gif',
+        image: '/supremeBot.gif',
         tags: [],   
     },
     {
         title: 'iActivate',
         description: 'Some really long description',
-        image: 'Image',
+        image: '/supremeBot.gif',
         tags: [], 
     },
     {
         title: 'TBD',
         description: 'Some really long description',
-        image: 'Image',
+        image: '/supremeBot.gif',
         tags: [],    
     },
     

@@ -7,7 +7,7 @@ const HeroPage = () => {
         <Section>
           <SectionTitle>
             Welcome To <br/>
-            My <Typical steps={['Personal Website', 1000]} loop={Infinity} wrapper="p"/>
+            My <Typical steps={['Personal Website', 500]} loop={Infinity} wrapper="p"/>
           </SectionTitle>
           <SectionText>
             Hello friends, I'm Paul and I'm currently finishing up my undergrad as I'm making this website. <br/>
