@@ -86,11 +86,20 @@ transition: 0.5s;
 `;
 
 export const TagList = styled.ul`
-display: flex;
+display: grid;
+grid-template-columns: 200px 200px;
+grid-row: auto auto;
+grid-column-gap: 20px;
+grid-row-gap: 20px;
 justify-content: space-around;
 padding: 2rem;
 `
 export const Tag = styled.li`
 color: #d8bfbf;
 font-size: 1.5rem;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius: 3px;
+padding: 20px;
 `

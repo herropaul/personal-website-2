@@ -1,6 +1,6 @@
 import React from 'react'
-import {Section, SectionTitle, SectionText, SectionDivider} from '../../styles/GlobalComponents/index';
-import { GridContainer, BlogCard, HeaderThree, TitleContent, Hr, Img, Tag, TagList } from './SideProjectElements';
+import {Section, SectionTitle, SectionText} from '../../styles/GlobalComponents/index';
+import { GridContainer, BlogCard, HeaderThree, TitleContent, Hr, Tag, TagList } from './SideProjectElements';
 import {LazyLoadImage} from 'react-lazy-load-image-component';
 import {projects} from './constants';
 
@@ -22,7 +22,7 @@ export default function SideProject() {
                             {tags.map((item, i) => (
                                 <Tag key={i}>
                                     {item.tech}
-                                    <LazyLoadImage src={item.img} width="300" height="300"/>
+                                    <LazyLoadImage src={item.img} width="100" height="100"/>
                                 </Tag>
                             ))}
                         </TagList>
