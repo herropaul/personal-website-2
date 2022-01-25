@@ -1,7 +1,7 @@
 export const projects = [
     {
         id: 0,
-        title: 'Soiree',
+        title: 'Soiree (Senior Project)',
         description: 'Soirée is a native application where it can recommend users new hangout spots to find with groups of friends.',
         image: '/soiree.gif',
         tags: [
@@ -15,7 +15,7 @@ export const projects = [
                 img: '/yelpLogo.png'
             },
             {   tech: 'Google Maps API',
-                img: '/googleMapsLogo.jpg'
+                img: '/googleMapsLogo.png'
             },
         ],
     },

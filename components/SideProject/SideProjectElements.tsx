@@ -90,7 +90,7 @@ display: grid;
 grid-template-columns: 200px 200px;
 grid-row: auto auto;
 grid-column-gap: 20px;
-grid-row-gap: 20px;
+grid-row-gap: 10px;
 justify-content: space-around;
 padding: 2rem;
 `
@@ -98,8 +98,12 @@ export const Tag = styled.li`
 color: #d8bfbf;
 font-size: 1.5rem;
 display:flex;
+flex-wrap: wrap;
 align-items:center;
 justify-content:center;
-border-radius: 3px;
 padding: 20px;
 `
+
+export const ImageContainer = styled.span.attrs({
+  className: "w-100 h-100 bg-white m-2 rounded-full flex items-center p-5"
+})``;
