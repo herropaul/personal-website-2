@@ -2,23 +2,57 @@ export const projects = [
     {
         id: 0,
         title: 'Soiree',
-        description: 'Soirée is a native application where it can recommend users new hangout spots to find with groups of friends. The app has three main categories to check out: Foods, Activities, and Places. Users can swipe through these categories to see if they like the business or not, check out more information, and leave reviews.',
+        description: 'Soirée is a native application where it can recommend users new hangout spots to find with groups of friends.',
         image: '/soiree.gif',
-        tags: [],
+        tags: [
+            {   tech: 'React Native',
+                img: '/reactNativeLogo.png'
+            },
+            {   tech: 'Firestore',
+                img: '/firestoreLogo.png'
+            },
+            {   tech: 'Yelp Fusion',
+                img: '/yelpLogo.png'
+            },
+            {   tech: 'Google Maps API',
+                img: '/googleMapsLogo.jpg'
+            },
+        ],
     },
     {
         id: 1,
         title: 'Supreme Bot',
-        description: 'Some really long description',
+        description: 'Automated Python script to parse through web-store to grab specific items and checkout to resell for profit. ',
         image: '/supremeBot.gif',
-        tags: [],   
+        tags: [
+            {   tech: 'Python3',
+                img: '/reactNativeLogo.png'
+            },
+            {   tech: 'Beautifulsoup4',
+                img: '/firestoreLogo.png'
+            },
+            {   tech: 'Splinter',
+                img: '/yelpLogo.png'
+            }
+        ]
     },
+
     {
         id: 2,
         title: 'iActivate',
         description: 'Some really long description',
         image: '/supremeBot.gif',
-        tags: [], 
+        tags: [
+            {   tech: 'Java',
+                img: '/reactNativeLogo.png'
+            },
+            {   tech: 'Python3',
+                img: '/firestoreLogo.png'
+            },
+            {   tech: 'Pandas',
+                img: '/yelpLogo.png'
+            }
+        ]
     },
     {
         id: 3,

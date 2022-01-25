@@ -1,6 +1,6 @@
 import React from 'react'
 import {Section, SectionTitle, SectionText, SectionDivider} from '../../styles/GlobalComponents/index';
-import { GridContainer, BlogCard, HeaderThree, Img } from './SideProjectElements';
+import { GridContainer, BlogCard, HeaderThree, TitleContent, Hr, Img, Tag, TagList } from './SideProjectElements';
 import {LazyLoadImage} from 'react-lazy-load-image-component';
 import {projects} from './constants';
 
@@ -9,14 +9,24 @@ export default function SideProject() {
         <Section id="projects">
             <SectionTitle>Projects I've worked on</SectionTitle>
             <GridContainer>
-                {projects.map((project)=>(
-                    <BlogCard key={project.id}>
-                        <SectionText>
-                            <HeaderThree>{project.title}</HeaderThree>
-                            <br/>
-                            <LazyLoadImage src={project.image} width="500" height="500"/>
-                            {project.description}
-                        </SectionText>
+                {projects.map(({id, title, image, description, tags})=>(
+                    <BlogCard key={id}>
+                    <SectionText>
+                        <TitleContent>
+                            <HeaderThree>{title}</HeaderThree>
+                            <Hr />
+                        </TitleContent>
+                        <LazyLoadImage src={image} width="500" height="500"/>
+                        {description}
+                        <TagList>
+                            {tags.map((item, i) => (
+                                <Tag key={i}>
+                                    {item.tech}
+                                    <LazyLoadImage src={item.img} width="300" height="300"/>
+                                </Tag>
+                            ))}
+                        </TagList>
+                    </SectionText>
                     </BlogCard>
                 ))}
             </GridContainer>
