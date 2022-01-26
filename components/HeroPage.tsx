@@ -1,13 +1,20 @@
 import {Section, SectionTitle, SectionText, SectionDivider} from '../styles/GlobalComponents/index';
-import Typical from 'react-typical'
+import Typist from 'react-typist';
 import React from 'react';
 
 const HeroPage = () => {
     return (
         <Section>
           <SectionTitle>
-            Welcome To <br/>
-            My <Typical steps={['Personal Website', 500]} loop={Infinity} wrapper="p"/>
+            <Typist cursor={{hideWhenDone: true}}>
+              Welcome To 
+              <Typist.Delay ms={500}/>
+              <br/>
+              My 
+              <Typist.Delay ms={500}/>
+              <br/>
+              Personal Website 
+            </Typist>
           </SectionTitle>
           <SectionText>
             Hello friends, my name is Paul and I'm currently finishing up my undergrad as I'm making this website. <br/>

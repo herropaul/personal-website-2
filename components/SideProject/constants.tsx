@@ -43,7 +43,7 @@ export const projects = [
         id: 2,
         title: 'iActivate',
         subtitle: 'Health Tracking Algorithm',
-        description: 'Some really long description',
+        description: 'Goal is to create a health tracking algorithm similar to FitBit to automatically diagnose heart rate abnormalities. ',
         image: '/iactivate.png',
         tags: [
             {   tech: 'Java',
