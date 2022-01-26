@@ -1,7 +1,8 @@
 export const projects = [
     {
         id: 0,
-        title: 'Soiree (Senior Project)',
+        title: 'Soiree',
+        subtitle: 'Senior Project',
         description: 'Soirée is a native application where it can recommend users new hangout spots to find with groups of friends.',
         image: '/soiree.gif',
         tags: [
@@ -22,6 +23,7 @@ export const projects = [
     {
         id: 1,
         title: 'Supreme Bot',
+        subtitle: 'Reselling Bot',
         description: 'Automated Python script to parse through web-store to grab specific items and checkout to resell for profit. ',
         image: '/supremeBot.gif',
         tags: [
@@ -40,8 +42,9 @@ export const projects = [
     {
         id: 2,
         title: 'iActivate',
+        subtitle: 'Health Tracking Algorithm',
         description: 'Some really long description',
-        image: '/supremeBot.gif',
+        image: '/iactivate.png',
         tags: [
             {   tech: 'Java',
                 img: '/java.png'
@@ -57,6 +60,7 @@ export const projects = [
     {
         id: 3,
         title: 'TBD',
+        subtitle: '',
         description: 'TBD...',
         image: '/questionMark.jpg',
         tags: [],    

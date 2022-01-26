@@ -36,6 +36,11 @@ export const HeaderThree = styled.h3`
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
 `;
 
+export const HeaderFour = styled.h4`
+  font-weight: 100;
+  color: #B2BEB5;
+`;
+
 export const Hr = styled.hr`
   width: 50px;
   height: 3px;
