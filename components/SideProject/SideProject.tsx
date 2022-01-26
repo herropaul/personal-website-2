@@ -24,7 +24,7 @@ export default function SideProject() {
                                     {item.tech}
                                     <span className={`${
                                     i % 2 === 0 ? 'animate-float' : 'animate-refloat'
-                                    } w-100 h-100 bg-white shadow-2xl m-4 rounded-full flex items-center p-7 `}>
+                                    } w-90 h-90 bg-white shadow-2xl m-4 rounded-full flex items-center p-4 `}>
                                         <LazyLoadImage src={item.img}/>
                                     </span>
                                 </Tag>

@@ -29,7 +29,8 @@ module.exports = {
           transform: 'translateY(0px)',
           animationTimingFunction: 'ease-in-out',
         },
-        refloat: {
+      },
+      refloat: {
           '0%': {
             transform: 'translateY(-20px)',
             animationTimingFunction: 'ease-in-out',
@@ -42,8 +43,7 @@ module.exports = {
             transform: 'translateY(-20px)',
             animationTimingFunction: 'ease-in-out',
           },
-        }
-      }
+        },
     },
     variants: {
       animation: ['responsive']

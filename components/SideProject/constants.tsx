@@ -26,13 +26,13 @@ export const projects = [
         image: '/supremeBot.gif',
         tags: [
             {   tech: 'Python3',
-                img: '/reactNativeLogo.png'
+                img: '/python.png'
             },
             {   tech: 'Beautifulsoup4',
-                img: '/firestoreLogo.png'
+                img: '/beautifulsoup.png'
             },
-            {   tech: 'Splinter',
-                img: '/yelpLogo.png'
+            {   tech: 'Selenium',
+                img: '/selenium.png'
             }
         ]
     },
@@ -44,21 +44,21 @@ export const projects = [
         image: '/supremeBot.gif',
         tags: [
             {   tech: 'Java',
-                img: '/reactNativeLogo.png'
+                img: '/java.png'
             },
             {   tech: 'Python3',
-                img: '/firestoreLogo.png'
+                img: '/python.png'
             },
             {   tech: 'Pandas',
-                img: '/yelpLogo.png'
+                img: '/pandas.jpeg'
             }
         ]
     },
     {
         id: 3,
         title: 'TBD',
-        description: 'Some really long description',
-        image: '/supremeBot.gif',
+        description: 'TBD...',
+        image: '/questionMark.jpg',
         tags: [],    
     },
     
