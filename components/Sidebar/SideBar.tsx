@@ -1,18 +1,30 @@
 import React, { useState } from 'react';
+import {Link} from 'react-scroll';
 import styles from './Sidebar.module.css';
 
 const SideBar = () => {
-    const navigationData = ["About", "Projects", "Resume", "Contact"];
+    const [click, setClick] = useState(false)
+    const handleClick = () => setClick(!click)
+    const closeMenu = () => setClick(false)
 
     return(
         <nav className={styles.wrapper}>
-          <a href="/" className={styles.logo}>
-            PN
-          </a>
+            <a href='/' className={styles.logo}>
+              PN
+            </a>
           <ul className={styles.navListItems}>
-              {navigationData.map((item, index) => (
-                  <li key={index} className={styles.navItem}>{item}</li>
-              ))}
+              <li key='1' className={styles.navItem}>
+                  <Link to="about" spy={true} smooth={true} duration={500} onClick={closeMenu}>About</Link>
+              </li>
+              <li key='2' className={styles.navItem}>
+                  <Link to="projects" spy={true} smooth={true} duration={500} onClick={closeMenu}>Projects</Link>
+              </li>
+              <li key='3' className={styles.navItem}>
+                  <Link to="resume" spy={true} smooth={true} duration={500} onClick={closeMenu}>Resume</Link>
+              </li>
+              <li key='4' className={styles.navItem}>
+                  <Link to="contact" spy={true} smooth={true} duration={500} onClick={closeMenu}>Contact</Link>
+              </li>
           </ul>
         </nav>
     );

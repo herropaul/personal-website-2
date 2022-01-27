@@ -4,7 +4,7 @@ import React from 'react';
 
 const HeroPage = () => {
     return (
-        <Section>
+        <Section id="about">
           <SectionTitle>
             <Typist cursor={{hideWhenDone: true}}>
               Welcome To 
