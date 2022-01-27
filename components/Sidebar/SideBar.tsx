@@ -14,16 +14,16 @@ const SideBar = () => {
             </a>
           <ul className={styles.navListItems}>
               <li key='1' className={styles.navItem}>
-                  <Link to="about" spy={true} smooth={true} duration={500} onClick={closeMenu}>About</Link>
+                  <Link to="about" spy={true} offset={-50} smooth={true} duration={500} onClick={closeMenu}>About</Link>
               </li>
               <li key='2' className={styles.navItem}>
-                  <Link to="projects" spy={true} smooth={true} duration={500} onClick={closeMenu}>Projects</Link>
+                  <Link to="projects" spy={true} offset={0} smooth={true} duration={500} onClick={closeMenu}>Projects</Link>
               </li>
               <li key='3' className={styles.navItem}>
-                  <Link to="resume" spy={true} smooth={true} duration={500} onClick={closeMenu}>Resume</Link>
+                  <Link to="resume" spy={true} offset={-50} smooth={true} duration={500} onClick={closeMenu}>Resume</Link>
               </li>
               <li key='4' className={styles.navItem}>
-                  <Link to="contact" spy={true} smooth={true} duration={500} onClick={closeMenu}>Contact</Link>
+                  <Link to="contact" spy={true} offset={-50} smooth={true} duration={500} onClick={closeMenu}>Contact</Link>
               </li>
           </ul>
         </nav>
