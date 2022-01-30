@@ -1,8 +1,15 @@
 import {Section, SectionTitle, SectionText, SectionDivider} from '../styles/GlobalComponents/index';
 import Typist from 'react-typist';
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 
-const HeroPage = () => {
+const HeroPage = () => {  
+    
+    const [animated, setAnimated] = useState(false);
+
+    useEffect(() => {
+      setAnimated(true);
+    }, [])
+
     return (
         <Section id="about">
           <SectionTitle>

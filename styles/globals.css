@@ -1,7 +1,8 @@
+/* stylelint-disable indentation */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-    @apply text-white bg-gray-800
+    @apply text-white bg-gray-800;
 }

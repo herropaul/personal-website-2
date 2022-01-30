@@ -1,5 +1,5 @@
 import React from 'react'
-import {Section, SectionTitle, SectionText} from '../../styles/GlobalComponents/index';
+import {Section, SectionTitle, SectionText, SectionDivider} from '../../styles/GlobalComponents/index';
 import { GridContainer, BlogCard, HeaderThree, TitleContent, Hr, Tag, TagList, HeaderFour } from './SideProjectElements';
 import {LazyLoadImage} from 'react-lazy-load-image-component';
 import {projects} from './constants';
@@ -36,6 +36,7 @@ export default function SideProject() {
                     </BlogCard>
                 ))}
             </GridContainer>
+            <SectionDivider/>
         </Section>
     )
 }

@@ -46,7 +46,8 @@ module.exports = {
         },
     },
     variants: {
-      animation: ['responsive']
+      animation: ['responsive'],
+      textColor: ['active'],
     }
   },
   plugins: []

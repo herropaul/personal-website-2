@@ -1,15 +1,20 @@
+/* stylelint-disable indentation */
 .wrapper {
-    @apply fixed flex flex-col bg-gray-700 left-0 top-0 bottom-0 z-50 w-32 h-screen justify-between items-center py-6 rounded-tr-xl rounded-br-xl
+    /* stylelint-disable-next-line max-line-length */
+    @apply fixed flex flex-col bg-gray-700 left-0 top-0 bottom-0 z-50 w-32 h-screen justify-between items-center py-6 rounded-tr-xl rounded-br-xl;
 }
 
 .logo {
-    @apply font-bold text-4xl
+    @apply font-bold text-4xl;
 }
 
+/* stylelint-disable-next-line selector-class-pattern */
 .navListItems {
-    @apply flex flex-col items-center h-screen p-24
+    @apply flex flex-col items-center h-screen p-24;
 }
 
+/* stylelint-disable-next-line selector-class-pattern */
 .navItem {
-    @apply text-gray-400 hover:text-gray-500 text-xl py-4 cursor-pointer
+    @apply text-gray-400 hover:text-gray-500 active:text-gray-600 text-xl py-4 cursor-pointer;
+/* stylelint-disable-next-line no-missing-end-of-source-newline */
 }
