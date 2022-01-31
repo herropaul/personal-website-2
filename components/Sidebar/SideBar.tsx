@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import {Link} from 'react-scroll';
+import NextLink from 'next/link';
 import styles from './Sidebar.module.css';
+import {LazyLoadImage} from 'react-lazy-load-image-component';
 
 const SideBar = () => {
     const [click, setClick] = useState(false)
@@ -9,9 +11,11 @@ const SideBar = () => {
 
     return(
         <nav className={styles.wrapper}>
-            <a href='/' className={styles.logo}>
-              PN
-            </a>
+            <NextLink href='/'>
+                <a className={styles.logo}>
+                    PN
+                </a>
+            </NextLink>
           <ul className={styles.navListItems}>
               <li key='1' className={styles.navItem}>
                   <Link to="about" spy={true} offset={-50} smooth={true} duration={500} onClick={closeMenu}>About</Link>
