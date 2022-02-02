@@ -14,10 +14,10 @@ export default function Resume() {
                 <GridContainer>
                     {skills.map(({id, title, names}) => (
                         <ul>
-                            <li>{title}</li>
+                            <li key={id}>{title}</li>
                             {names.map((item, i) => (
                                 <ul>
-                                    <li className="text-base font-sans">
+                                    <li key={i} className="text-base font-sans">
                                         {item}
                                         <div className="w-3 h-3 rounded-full bg-slate-500"></div>
                                     </li>
