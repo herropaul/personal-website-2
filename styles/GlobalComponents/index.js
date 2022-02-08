@@ -10,6 +10,7 @@ export const Section = styled.section`
   position: relative;
   overflow: hidden;
   grid-template-columns: 1fr 1fr;
+
 `
 
 export const SectionTitle = styled.h2`

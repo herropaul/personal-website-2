@@ -5,7 +5,7 @@ export const SkillsContainer = styled.section.attrs({
 })``;
 
 export const GridContainer = styled.section.attrs({
-    className: 'grid grid-cols-3 gap-10'
+    className: 'grid grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-3'
 })``;
 
 export const Header = styled.h3`

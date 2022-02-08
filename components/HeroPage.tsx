@@ -8,7 +8,7 @@ const HeroPage = () => {
 
     useEffect(() => {
       setAnimated(true);
-    }, [])
+    }, []) 
 
     return (
         <Section id="about">

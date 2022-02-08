@@ -4,6 +4,9 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      'nunito': ['nunito', 'sans-seriff']
+    },
     extend: {},
     screens: {
       sm: '640px',
