@@ -12,17 +12,6 @@ export default function Home () {
   return isBrowser ? (
     <Router>
       <div className="h-screen w-screen md:flex">
-        
-        {/* mobile menu bar */}
-        <div className="bg-gray-500 flex justify-between md:hidden">
-          {/* logo */}
-          <a href="#" className="block p-4">
-            <h2 className="text-2xl text-gray-100">PN</h2>
-          </a>
-
-          {/* mobile menu button */}
-          <MobileMenuButton></MobileMenuButton>
-        </div>
 
         {/*side bar */}
         <SideBar></SideBar>

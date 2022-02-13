@@ -15,6 +15,13 @@ place-items: center;
 column-gap: 2rem;
 row-gap: 3rem;
 `
+
+/*
+export const GridContainer = styled.section.attrs({
+  className: "grid grid-cols-2 place-items-center p-12 col-gap-8 row-gap-12"
+})``;
+*/
+
 export const BlogCard = styled.div`
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;

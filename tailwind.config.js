@@ -7,7 +7,11 @@ module.exports = {
     fontFamily: {
       'nunito': ['nunito', 'sans-seriff']
     },
-    extend: {},
+    extend: {
+      gridTemplateColumns: {
+        'auto-fill': '200px minmax(900px, 1fr) 100px'
+      }
+    },
     screens: {
       sm: '640px',
       md: '768px',
