@@ -107,7 +107,7 @@ justify-content: space-around;
 padding: 2rem;
 `
 export const Tag = styled.li`
-color: #d8bfbf;
+color: #89aee3;
 font-size: 1.5rem;
 display:flex;
 flex-wrap: wrap;
