@@ -20,7 +20,7 @@ module.exports = {
     },
     animation: {
       float: 'float 3s infinite',
-      refloat: 'refloat 3s infinite'
+      refloat: 'refloat 3s infinite',
     },
     keyframes: {
       float: {
