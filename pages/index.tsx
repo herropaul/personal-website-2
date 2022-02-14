@@ -1,5 +1,6 @@
 import SideBar from '../components/Sidebar/SideBar';
 import MobileMenuButton from '../components/MobileMenuButton';
+import Head from 'next/head'
 import HeroPage from '../components/HeroPage';
 import {BrowserRouter as Router} from 'react-router-dom';
 import React, { useState } from 'react';
@@ -12,6 +13,10 @@ export default function Home () {
   return isBrowser ? (
     <Router>
       <div className="h-screen w-screen md:flex">
+        <Head>
+          <title>pnguon</title>
+          <meta name="description" content="home page" />
+        </Head>
 
         {/*side bar */}
         <SideBar></SideBar>
