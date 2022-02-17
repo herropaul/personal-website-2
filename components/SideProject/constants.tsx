@@ -4,6 +4,7 @@ export const projects = [
         title: 'Soiree',
         subtitle: 'Senior Project',
         description: 'Soirée is a native application where it can recommend users new hangout spots to find with groups of friends.',
+        gitlink: 'https://github.com/abstractprototype/Soiree',
         image: '/soiree.gif',
         tags: [
             {   tech: 'React Native',
@@ -25,6 +26,7 @@ export const projects = [
         title: 'Supreme Bot',
         subtitle: 'Reselling Bot',
         description: 'Automated Python script to parse through web-store to grab specific items and checkout to resell for profit. ',
+        gitlink: 'https://github.com/herropaul/supremeBot',
         image: '/supremeBot.gif',
         tags: [
             {   tech: 'Python3',
@@ -44,6 +46,7 @@ export const projects = [
         title: 'iActivate',
         subtitle: 'Health Tracking Algorithm',
         description: 'Goal is to create a health tracking algorithm similar to FitBit to automatically diagnose heart rate abnormalities. ',
+        gitlink: 'https://github.com/herropaul/iactivate',
         image: '/iactivate.png',
         tags: [
             {   tech: 'Java',
@@ -62,6 +65,7 @@ export const projects = [
         title: 'TBD',
         subtitle: '',
         description: 'TBD...',
+        gitlink: '',
         image: '/questionMark.jpg',
         tags: [],    
     },
