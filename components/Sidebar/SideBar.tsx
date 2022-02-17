@@ -27,9 +27,6 @@ const SideBar = () => {
               <li key='3' className={styles.navItem}>
                   <Link to="resume" spy={true} offset={-50} smooth={true} duration={500} onClick={closeMenu}>Resume</Link>
               </li>
-              <li key='4' className={styles.navItem}>
-                  <Link to="contact" spy={true} offset={-50} smooth={true} duration={500} onClick={closeMenu}>Contact</Link>
-              </li>
               <NextLink href="https://github.com/herropaul">
                 <a target="_blank" rel="noreferrer noopener">
                     <BsGithub className="transform w-12 h-12 p-2 mt-5 hover:transition duration-500 hover:scale-125 sm:hover:scale-150"/>
