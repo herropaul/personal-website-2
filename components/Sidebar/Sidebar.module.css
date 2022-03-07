@@ -4,6 +4,11 @@
     @apply fixed flex flex-col bg-gray-700 left-0 top-0 bottom-0 z-50 w-32 h-screen justify-between items-center py-6 rounded-tr-xl rounded-br-xl;
 }
 
+/* stylelint-disable-next-line selector-class-pattern */
+.mobileMenuBar {
+    @apply bg-gray-600 text-gray-100 flex justify-between md:hidden;
+}
+
 .logo {
     @apply font-bold text-4xl;
 }
