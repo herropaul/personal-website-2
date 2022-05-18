@@ -25,11 +25,11 @@ export default function Resume() {
                         </ul>
                     ))}
                 </GridContainer>
-                <section className="pt-8 grid grid-cols-2 gap-x-14">
+                <section className="pt-8 pb-20 grid grid-cols-2 gap-x-14">
                     <div>
                         Education
                         <div className="pt-4 text-sm text-gray-300 md:text-base">
-                            <p>Graduating May 2022</p>
+                            <p>May 2022</p>
                             <p className="pt-3 font-light">California State University of Long Beach</p>
                             <p className="pt-3 font-medium">Bachelor of Science in Computer Science</p>
                         </div>

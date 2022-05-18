@@ -4,8 +4,10 @@ export const skills = [
         title: 'Languages',
         names: [
             'Javascript(ES6)',
+            'Typescript',
             'HTML5',
             'CSS3',
+            'Tailwind CSS',
             'Python3',
             'Java',
         ]
@@ -15,6 +17,7 @@ export const skills = [
         title: 'Frameworks',
         names: [
             'ReactJS',
+            'NextJS',
             'React Native'
         ]
     },

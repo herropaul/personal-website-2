@@ -62,12 +62,29 @@ export const projects = [
     },
     {
         id: 3,
-        title: 'TBD',
-        subtitle: '',
-        description: 'TBD...',
-        gitlink: '',
-        image: '/questionMark.jpg',
-        tags: [],    
+        title: 'Pedium',
+        subtitle: 'My Personal Blog',
+        description: 'Personal blog to share my thoughts and learning experience with others.',
+        gitlink: 'https://github.com/herropaul/medium-build',
+        image: '/Paul_Logo_Full.png',
+        tags: [
+            {
+                tech: 'NextJS',
+                img: '/nextjs.png'
+            },
+            {
+                tech: 'TailwindCSS',
+                img: '/tailwind.png'
+            },
+            {
+                tech: 'Typescript',
+                img: '/typescript.png'
+            },
+            {
+                tech: 'Sanity.io',
+                img: '/sanity.webp'
+            },
+        ],   
     },
     
 ]
